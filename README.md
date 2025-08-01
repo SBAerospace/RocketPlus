@@ -36,3 +36,12 @@ const float Cd_brake = 1.5; // Drag coefficient with brakes deployed
 
 #define TARGET_APOGEE_M 228.6 // Target apogee in meters
 ```
+
+## Potential Updates
+- Add real-time Kalman filtering for smoother velocity estimation
+- Use flash memory logging
+- Integrate deployment override switch
+- Add fallback thresholds for manual deployment
+
+## Usage
+Simply upload the `.ino` to your Arduino-compatible board, make sure your I2C sensors are wired correctly, and power the servo with an appropriate external source.
